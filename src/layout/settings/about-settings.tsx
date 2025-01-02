@@ -7,7 +7,7 @@ import { Item } from './item'
 export const AboutSettings = () => (
   <Category description={loc('settings_about_desc')} title={loc('settings_about')}>
     <Item>
-      <Item.Setting>
+      <Item.Section>
         <Item.Heading>{loc('settings_contribute')}</Item.Heading>
         <Item.Description>
           {loc('settings_contribute_desc')}{' '}
@@ -16,9 +16,9 @@ export const AboutSettings = () => (
           </a>
           .
         </Item.Description>
-      </Item.Setting>
+      </Item.Section>
 
-      <Item.Setting>
+      <Item.Section>
         <Item.Heading>{loc('settings_bug')}</Item.Heading>
         <Item.Description>
           {loc('settings_bug_desc')}{' '}
@@ -27,12 +27,12 @@ export const AboutSettings = () => (
           </a>
           .
         </Item.Description>
-      </Item.Setting>
+      </Item.Section>
 
-      <Item.Setting>
+      <Item.Section>
         <Item.Heading>{loc('settings_disclaimer')}</Item.Heading>
         <Item.Description>{loc('settings_disclaimer_desc')}</Item.Description>
-      </Item.Setting>
+      </Item.Section>
     </Item>
   </Category>
 )

@@ -41,10 +41,10 @@ export const ExportSettings = () => {
   return (
     <Category description={loc('settings_export_desc')} title={loc('settings_export')}>
       <Item>
-        <Item.Setting>
+        <Item.Section>
           <Item.Heading>{loc('settings_default_svgo')}</Item.Heading>
           <Item.Description>{loc('settings_default_svgo_desc')}</Item.Description>
-        </Item.Setting>
+        </Item.Section>
         {_.sortBy(svgoPlugins, 'name').map((plugin) => (
           <div className="mt-4 flex gap-2" key={plugin.name}>
             <input

@@ -459,7 +459,7 @@
     "message": "Reset environment"
   },
   "sidebar_review": {
-    "message": "Review SVG Gobbler"
+    "message": "Leave a review"
   },
   "sidebar_support": {
     "message": "Support SVG Gobbler"
@@ -783,12 +783,33 @@
     "message": "Merge collections with the same source URL"
   },
   "settings_merge_tooltip": {
-    "message": "Identical SVG content within a collection that shares the same source URL is automatically merged"
+    "message": "Automatically merge collections with identical SVGs that shares the same source URL"
   },
   "settings_importing": {
     "message": "Importing"
   },
   "settings_importing_desc": {
     "message": "Default configuration settings for importing collections."
+  },
+  "settings_collections_title": {
+    "message": "Data"
+  },
+  "settings_collections_desc": {
+    "message": "Settings and configuration options for data and collection history"
+  },
+  "settings_reset_title": {
+    "message": "Reset SVG Gobbler"
+  },
+  "settings_reset_desc": {
+    "message": "Clear all collections and data from local storage related to SVG Gobbler. This will reset SVG Gobbler to initialized state"
+  },
+  "settings_reset_action": {
+    "message": "Reset SVG Gobbler"
+  },
+  "settings_export_data": {
+    "message": "Export data"
+  },
+  "settings_export_data_desc": {
+    "message": "Download all collections and data from local storage related to SVG Gobbler. This will create a JSON file that contains all information stored."
   }
 }

@@ -5,10 +5,14 @@ const Heading = ({ children }: PropsWithChildren) => {
 }
 
 const Description = ({ children }: PropsWithChildren) => {
-  return <p className="text-muted mt-1 text-sm leading-6">{children}</p>
+  return <p className="text-muted mb-6 text-sm leading-6">{children}</p>
 }
 
-export const Setting = ({ children }: PropsWithChildren) => {
+const Setting = ({ children }: PropsWithChildren) => {
+  return <div className="mb-5">{children}</div>
+}
+
+export const Section = ({ children }: PropsWithChildren) => {
   return <div className="mb-5">{children}</div>
 }
 
@@ -18,4 +22,5 @@ export const Item = ({ children }: PropsWithChildren) => {
 
 Item.Heading = Heading
 Item.Description = Description
+Item.Section = Section
 Item.Setting = Setting
